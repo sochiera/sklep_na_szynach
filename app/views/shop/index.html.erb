@@ -1,0 +1,10 @@
+<h1> Witaj w mym sklepie! </h1>
+
+<h2> Produkty: </h2>
+<table>
+	<% @products.each do |p| %>
+		<tr> 
+			<td><%= p.name %>
+		</tr>
+	<% end %>
+</table>
